@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <section>
+        <h1 class="header">BUDGET APP</h1>
+        <div class="budget-app">
+            <div class="budget-info">
+                <div class="total-income" >
+                    <h3 >Total Income</h3>
+                    <p id="totalIncome">$0</p>
+                </div>
+                <div class="amount-remain">
+                    <h3>Amount Remaining</h3>
+                    <p id="amountRemain">$0</p>
+                </div>
+                <div class="total-expense">
+                    <h3>Total Expenses</h3>
+                    <p id="totalExpense">$0</p>
+                </div>
+            </div>
+            <div>
+                <form class="form-input" action="">
+                    <input id="reason" type="text" placeholder="Reason for transaction">
+                    <input id="amount" type="number" placeholder="Amount" name="" id="">
+                    <label class="switch">
+                        <input id="transactionTypeOption" type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+
+                    <button id="addExpense" type="button">Add Income</button>
+
+                </form>
+            </div>
+
+            <div class="history">
+                    <ul  id = "historyList" class="mobile">
+                        <!-- <li class = "item">
+                            <span class ="icon"></span>
+                            <div>
+                                <p class ="reason">Clothes and shopping</p>
+                                <p class="date">\27th of may, 2021</p>
+                            </div>
+                            <p class = "amount">$20,000</p>
+                            <span class="option"><button type="button">x</button></span>
+                            </li> -->
+                    </ul>
+            </div>
+        </div>
+
+    </section>
+    <script src="budgetLogic.js"></script>
+</body>
+
+</html>
