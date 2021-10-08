@@ -4,7 +4,6 @@ var totalExpense = document.querySelector("#totalExpense")
 var btnExpense = document.querySelector("#addExpense")
 var historyList = document.querySelector("#historyList")
 
-
 var transactionType = "I"
 var id
 var date
